@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+gem 'github-pages'
+
 gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.0"
 
 group :test do
@@ -20,3 +22,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Jekyll <= 4.2.0 compatibility with Ruby 3.0
 gem "webrick", "~> 1.7"
+
